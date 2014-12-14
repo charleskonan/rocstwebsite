@@ -1,0 +1,104 @@
+
+div.expNavBar{
+	position: fixed;
+	width: 100%;
+	z-index: 1;
+	background: #F8A337;
+	padding: 12px 0px;
+	top:50px; 
+
+}
+
+ul.expertiseList{
+	width: 263px;
+	margin: 0 auto;
+}
+
+ul.expertiseList li{
+	float: left;
+	margin-left: 20px;
+}
+
+ul.expertiseList li:first-child{
+	margin-left: 0px;
+}
+
+
+ul.expertiseList li a{
+	font-size: 12px;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: white;
+}
+
+ul.expertiseList li a:hover{
+	color: #000000;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+
+
+@media (min-width: 321px) and (max-width: 480px) {
+	
+	ul.expertiseList{
+		width: 300px;
+		margin: 0 auto;
+	}
+	ul.expertiseList li a{
+		font-size: 14px;
+	}
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+
+	ul.expertiseList{
+		width: 337px;
+		margin: 0 auto;
+	}
+	ul.expertiseList li a{
+		font-size: 16px;
+	}
+}
+
+@media (min-width: 769px) and (max-width: 1920px) {
+
+
+	div.expNavBar{
+		width: 166px;
+		position: fixed;
+		z-index: 1;
+		background: none; 
+		top: 180px;
+	}
+
+	ul.expertiseList{
+		width: 166px;
+		margin: 0px;
+		float: left;
+	}
+
+	ul.expertiseList li{
+		margin-left: 0px;
+		margin-top:20px;
+	}
+
+	ul.expertiseList li a{
+		font-size: 16px;
+		text-transform: uppercase;
+		text-decoration: none;
+		color: white;
+	}
+
+	ul.expertiseList li a:hover{
+		color: #F8A337;
+		-webkit-transition: all 0.3s ease-in-out;
+		-moz-transition: all 0.3s ease-in-out;
+		-ms-transition: all 0.3s ease-in-out;
+		-o-transition: all 0.3s ease-in-out;
+		transition: all 0.3s ease-in-out;
+	}
+
+}

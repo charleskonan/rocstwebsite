@@ -1,0 +1,44 @@
+/*****************************************************/
+/*************** COMMON PROPERTIES *******************/
+/*****************************************************/
+div.expertise-bloc {
+  position: relative;
+  width: 100%;
+  height: auto;
+  margin-top: 85px;
+  background: red; }
+  div.expertise-bloc div.expertise-bloc-line {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    margin-bottom: 80px; }
+    div.expertise-bloc div.expertise-bloc-line div.expertise-list {
+      float: left;
+      display: inline-block;
+      width: 286px;
+      height: auto;
+      /*margin-top:85px;*/ }
+      div.expertise-bloc div.expertise-bloc-line div.expertise-list div.e_list-title {
+        background: url("../img/glob-icon.png") no-repeat;
+        background-position: 0px 6px;
+        padding-left: 60px;
+        margin-bottom: 20px; }
+        div.expertise-bloc div.expertise-bloc-line div.expertise-list div.e_list-title h3 {
+          font-size: 1.56em;
+          color: #23c3f3;
+          text-transform: uppercase; }
+      div.expertise-bloc div.expertise-bloc-line div.expertise-list ul.e_list {
+        width: 286px; }
+        div.expertise-bloc div.expertise-bloc-line div.expertise-list ul.e_list .f_line {
+          background-color: #e8e8e8; }
+        div.expertise-bloc div.expertise-bloc-line div.expertise-list ul.e_list .s_line {
+          background-color: #cacaca; }
+      div.expertise-bloc div.expertise-bloc-line div.expertise-list ul.e_list li {
+        width: 266px;
+        padding: 10px 10px; }
+        div.expertise-bloc div.expertise-bloc-line div.expertise-list ul.e_list li p {
+          display: block;
+          font-size: 0.8em;
+          color: black; }
+  div.expertise-bloc .gapLeft {
+    margin-left: 31px; }

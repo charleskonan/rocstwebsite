@@ -1,0 +1,3 @@
+RewriteEngine on
+RewriteRule core/ core/Switch.php [L]
+RewriteRule (.*) webroot/$1 [L]

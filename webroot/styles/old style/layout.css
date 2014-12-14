@@ -1,0 +1,450 @@
+/* common properties (default display on mobile)*/
+
+.nav-bar{
+    position:fixed;
+    z-index: 1;
+    width: 100%;
+    height: 49px;
+    background: #333333;
+    border-bottom: 1px solid #444444;
+}
+
+    
+.nav-bar-title{
+    position: relative;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.nav-bar-title h6{
+    font-size: 1em;
+    padding: 17.5px 0px;
+    text-align: center;
+        
+}
+
+.mobile-logo{
+        float: left;
+        margin: 5.5px 0px;
+    }
+
+.mobile-logo a{
+    position: absolute;
+    width: 25px;
+    height: 39px;
+    left: 10px;
+    text-indent: 99999px;
+    overflow: hidden;
+    background: url('../img/small_screen_logo.png') no-repeat;
+}
+
+.nav-bar-toogle{
+    float: right;
+}
+
+
+.nav-bar-toogle a{
+    position: absolute;
+    width: 27px;
+    height: 28px;
+    top: 12.5px;
+    right: 10px;
+    text-indent: 9999999px;
+    overflow: hidden;
+    background: url('../img/menu-toggle_ico.png') no-repeat;
+    background-position: 0px -28px;
+}
+
+.nav-bar-toogle a:hover{   
+    background: url('../img/menu-toggle_ico.png') no-repeat;   
+    background-position: 0px 0px;
+}
+
+.menu{
+    width: 100%;
+    display:none;
+    position: relative;
+    height: auto;
+    background: #222222;
+    z-index: 2;
+    top: 50px;
+    left: 0;
+}
+
+.menu .nav-top{
+    display: block;
+    height: auto;
+}
+
+.menu .nav-bottom{
+    display: block;
+    height: auto;
+
+}
+
+.menu .nav-top li,
+.menu .nav-bottom li{
+    width: 100%;
+    border-bottom: 1px solid #444444;
+}
+
+.menu .nav-bottom li:last-child{
+    border-bottom: none;}
+
+
+.menu .nav-top li a,
+.menu .nav-bottom li a{
+    display: block;
+    /*width: 100%;*/
+    padding: 13.5px 0px 13.5px 80px;
+    text-decoration: none;
+    color: #ffffff;   
+}
+
+.menu .nav-top li a:hover,
+.menu .nav-bottom li a:hover{
+    background: #111111;
+}
+
+.menu-item{
+    position: absolute;
+    display: block;
+    width: 24px;
+    height: 24px;
+    margin-left: -35px;
+}
+
+.nav-one  { background: url('../img/nav_ico_grp.png') no-repeat; background-position: 3px 0px;    }
+.nav-two  { background: url('../img/nav_ico_grp.png') no-repeat; background-position: -110px 0px; }
+.nav-three{ background: url('../img/nav_ico_grp.png') no-repeat; background-position: -27px 0px;  }
+.nav-four { background: url('../img/nav_ico_grp.png') no-repeat; background-position: -59px 0px;  }
+/*.nav-five { background: url('../img/nav_ico_grp.png') no-repeat; background-position: -81px 0px;  }
+.nav-six  { background: url('../img/nav_ico_grp.png') no-repeat; background-position: -138px 0px; }*/
+.nav-seven{ background: url('../img/nav_ico_grp.png') no-repeat; background-position: -138px -2px; }
+
+.menu .nav-top li a p{
+    display: block;
+    padding: 2px 0px;
+
+}
+
+.show-menu .menu{
+    display: block;
+
+}
+
+
+/***********************/
+
+.logo{
+    display: none;
+}
+
+
+.content{
+    display: block;
+    position: absolute;
+    width: 100%;
+    top:60px;
+    bottom: 0;
+    left: 0;
+}
+
+.main-column{
+    position: relative;
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+.page-title{
+    display: block;
+    font-family: 'open_sans_condensedbold';
+    font-size: 2.1em;
+    padding: 0px 20px;
+    margin-top: 25px;    
+    text-transform: uppercase;
+    line-height: 1em;
+}
+
+.pageSubTitle{
+    display: block;
+    font-family: 'open_sanslight';
+    padding: 0px 20px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    line-height: 1.2em;
+}
+
+.main-column p{
+    font-family: 'open_sanslight';
+    font-size: 0.9em;
+    margin-top: 10px;
+    padding: 0px 20px;
+    line-height: 1.5em;
+}
+
+.side-column{
+    position: relative;
+    width: 100%;
+    margin-top: 24px;
+    background: #444444;
+}
+
+.side-title{
+    display: block;
+    font-family: 'open_sanslight';
+    font-size: 1.1em;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+@media (min-width: 321px) and (max-width: 480px) {
+/* smartphones orientation landscape & small tablets */
+    
+    .nav-bar-title h6{
+        font-size: 0.9em
+    }
+
+    .page-title{
+        font-size: 3.3em;
+    }
+
+    .main-column p{
+        font-size: 0.9em;
+    }
+
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+
+    .nav-bar-title h6{
+        font-size: 1em
+    }
+
+    .page-title{
+        font-size: 5.2em;
+        line-height: 1em;
+    }
+
+    .main-column p{
+        font-size: 18px;
+    }
+
+}
+
+
+@media (min-width: 769px) and (max-width: 1920px) {
+
+    body{
+        background: #111111;
+    }
+
+    .cAlign{
+        width:  920px;
+        margin: 0 auto;
+    }
+
+    .cBoth{
+        clear: both;
+    }
+
+    .menu{
+        display: block;
+    }
+
+    .side-menu{
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        width: 200px;
+        background: #222222;
+    }
+
+    .side-menu .nav-top{
+        display: block;
+        float: left;
+        margin-top: 200px;
+        height: auto;
+    }
+
+    .side-menu .nav-bottom{
+        margin-top:30px;
+        display: block;
+        float: left;
+        height: auto;
+
+    }
+
+    .side-menu .nav-top li,
+    .side-menu .nav-bottom li{
+        width: 200px;
+        border-bottom: none;
+    }
+
+    .side-menu .nav-top li a,
+    .side-menu .nav-bottom li a{
+        display: block;
+        width: 135px;
+        padding: 12px 0px 12px 65px;
+        text-decoration: none;
+        color: #ffffff;   
+    }
+
+    .side-menu .nav-top li a:hover,
+    .side-menu .nav-bottom li a:hover{
+        background: #111111;
+    }
+
+    .logo{
+        display: block;
+        position: absolute;
+        left: 50px;
+        top:30px;
+    }
+
+    .logo a{
+        position: absolute;
+        width: 106px;
+        height: 155px;
+        text-indent: 99999px;
+        overflow: hidden;
+        background: url('../img/large_screen_logo.png') no-repeat;
+    }
+
+    .nav-bar{
+        display: none;
+    }
+
+
+    .slide-mobile{
+        display: none;
+    }
+
+    .content{
+        position: absolute;
+        width: 84.4%;
+        top: 0;
+        bottom: 0;
+        left: 200px;
+    }
+
+    .main-column{
+        float: left;
+        position: relative;
+        width: 75%;
+        padding-bottom: 100px;
+    }
+
+    .page-title{
+        display: block;
+        font-family: 'open_sans_condensedbold';
+        font-size: 5.2em;
+        padding: 0px;
+        margin-top: 100px;
+        text-transform: uppercase;
+        line-height: 1em;
+    }
+
+    .pageSubTitle{
+        display: block;
+        font-family: 'open_sanslight';
+        font-size: 18px;
+        padding: 0px;
+        margin-top: 10px;
+        margin-bottom: 25px;
+        line-height: 1.5em;
+    }
+
+    .main-column p{
+        font-family: 'open_sanslight';
+        font-size: 18px;
+        padding: 0px;
+        margin-top: 10px;
+        line-height: 1.5em;
+    }
+
+    .side-column{
+        width: 18%;
+        background: none;
+    }
+
+    .posRight{
+        float: right;
+        margin-top: 315px;
+        position: relative;
+    }
+
+    .posLeft{
+        float: left;
+        margin-top: 280px;
+        position: relative;
+    }
+
+
+    @media (min-width: 769px) and (max-width: 1014px) {
+        .cAlign{
+            width:  640px;
+            margin: 0 auto;
+        }
+
+        .page-title{
+            font-size: 3.4em;
+            margin-top: 80px;
+            line-height: 1em;
+        }
+
+        .pageSubTitle{
+            font-size: 16px;
+            margin-top: 10px;
+            line-height: 1.5em;
+        }
+
+        .main-column p{
+            font-size: 16px;
+            line-height: 1.5em;
+        }
+
+        .side-title{
+            font-size: 1.4em;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+        }
+    }
+
+
+    @media (min-width: 1015px) and (max-width: 1138px) {
+        .cAlign{
+            width:  780px;
+            margin: 0 auto;
+        }
+
+        .page-title{
+            font-size: 4.4em;
+            margin-top: 80px;
+            line-height: 1em;
+        }
+
+        .pageSubTitle{
+            font-size: 17px;
+            margin-top: 10px;
+            line-height: 1.5em;
+        }
+
+        .main-column p{
+            font-size: 17px;
+            line-height: 1.5em;
+        }
+
+        .side-title{
+            font-size: 1.5em;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+        }
+    }
+}
+
+
+
+
+
+

@@ -1,0 +1,86 @@
+/*****************************************************/
+
+/*************** COMMON PROPERTIES *******************/
+
+/*****************************************************/
+
+div.expertise-bloc{
+	position:relative;
+	width:100%;
+	height:auto;
+	margin-top:85px;
+	background:red;
+
+	div.expertise-bloc-line{
+		position:absolute;
+		width:100%;
+		height:auto;
+		margin-bottom:80px;
+
+		div.expertise-list{
+			float:left;
+			display:inline-block;
+			width:286px;
+			height:auto;
+			/*margin-top:85px;*/
+			
+
+			div.e_list-title{
+				background: url('../img/glob-icon.png') no-repeat;
+				background-position: 0px 6px;
+				padding-left:60px;
+				margin-bottom:20px;
+
+				h3{
+					font-size:1.56em;
+					color:#23c3f3;
+					text-transform:uppercase;
+				}
+
+			}
+
+			ul.e_list{
+				width:286px;
+
+				.f_line{
+					background-color:#e8e8e8;
+				}
+
+				.s_line{
+					background-color:#cacaca;
+				}
+
+			}
+
+			ul.e_list li{
+				width:266px;
+				padding: 10px 10px;
+
+
+
+				p{
+					display:block;
+					font-size:0.8em;
+					color:black;
+				}
+			
+
+			}
+
+			ul.list-one{
+
+			}
+
+		}
+	}
+
+	.gapLeft{
+		margin-left:31px;
+	}
+
+
+
+	
+
+	
+}

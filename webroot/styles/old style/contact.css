@@ -1,0 +1,258 @@
+div.contactBloc{
+	width:  280px;
+	padding: 0px 20px;
+}
+
+div.contactBloc form{
+	margin-top:20px;
+}
+
+div.contactBloc form h2{
+	font-family: 'open_sansregular';
+	font-size: 38px;
+}
+
+div.contactBloc form p{
+	font-family: 'open_sanslight';
+	font-size: 14px;
+	line-height: 18px;
+	margin-top: 6px;
+}
+
+div.blocLeft{
+	width: 280px;
+	margin-top: 10px;
+}
+
+div.blocLeft input{
+	width: 100%;
+	font-family: 'open_sansregular';
+	font-size: 12px;
+	background: none;
+	padding: 6px 0px;
+	margin-top: 8px;
+	margin-bottom: 4px;
+	border-top: 1px solid #111111;
+	border-left: 1px solid #111111;
+	border-right: 1px solid #111111;
+	border-bottom: 1px solid #717678;
+	color: white;
+}
+
+div.blocLeft label{
+	font-family: 'open_sanslight';
+	font-size: 14px;
+	margin-bottom: 20px;
+}
+
+div.blocLeft input:focus {
+	border-bottom: 1px solid #1CB4ED;
+}
+
+div.blocLeft input:focus + label{
+	color:#1CB4ED; 
+	
+}
+
+
+div.blocRight{
+	width: 268px;
+}
+
+div.blocRight textarea{
+	width: 266px;
+	height: 146px;
+	font-family: 'open_sansregular';
+	font-size: 12px;
+	background: none;
+	margin-top: 38px;
+	border: 1px solid #717678;
+	padding: 6px;
+	color: white;
+	resize:none;
+	margin-bottom: 80px;
+}
+
+div.blocRight textarea:focus {
+	border: 1px solid #1CB4ED;
+}
+
+div.contactBtn{
+    width: 120px;
+    height: 120px;
+    margin: 0 auto;
+}
+
+div.contactBtn a{
+	font-family: 'open_sansregular';
+    font-size: 14px; 
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #ffffff;
+    padding: 42px 22px;
+    border-radius:50%;
+    /*border: 2px solid #717678;*/
+    border: 2px solid #ffffff;
+}
+
+div.contactBtn a:hover{
+	background: #1CB4ED;
+	border: 2px solid #1CB4ED;
+	color: #ffffff;
+}
+
+
+@media (min-width: 321px) and (max-width: 480px) {
+
+	div.contactBloc{
+		width:  440px;
+		padding: 0px 20px;
+	}
+
+	div.contactBloc form{
+		margin-top:20px;
+	}
+
+	div.contactBloc form h2{
+		font-size: 48px;
+	}
+
+	div.contactBloc form p{
+		font-size: 16px;
+		line-height: 26px;
+	}
+
+	
+	div.blocLeft{
+		width: 440px;
+		margin-top: 10px;
+	}
+
+	div.blocLeft input{
+		font-size: 14px;
+	}
+
+	div.blocLeft label{
+		font-size: 16px;
+	}
+
+	
+	div.blocRight{
+		width: 428px;
+	}
+
+	div.blocRight textarea{
+		width: 426px;
+		height: 156px;	
+	}
+	
+	div.blocRight textarea{
+		font-size: 14px;
+	}
+}
+
+
+@media (min-width: 481px) and (max-width: 768px) {
+
+	div.contactBloc{
+		width:  728px;
+		padding: 0px 20px;
+	}
+
+	div.contactBloc form{
+		margin-top:25px;
+	}
+
+	div.contactBloc form h2{
+		font-size: 68px;
+	}
+
+	div.contactBloc form p{
+		font-size: 18px;
+	}
+
+	
+	div.blocLeft{
+		width: 728px;
+		margin-top: 10px;
+	}
+
+	div.blocLeft input{
+		font-size: 14px;
+	}
+
+	div.blocLeft label{
+		font-size: 16px;
+	}
+
+	
+	div.blocRight{
+		width: 716px;
+	}
+
+	div.blocRight textarea{
+		width: 714px;
+		height: 176px;	
+	}
+	
+	div.blocRight textarea{
+		font-size: 14px;
+	}
+
+}
+
+
+@media (min-width: 769px) and (max-width: 1920px) {
+
+	div.contactBloc{
+		width:  720px;
+	    margin: 0 auto;
+	}
+
+	div.contactBloc form{
+		margin-top:70px;
+	}
+
+	div.contactBloc form h2{
+		font-size: 72px;
+	}
+
+	div.contactBloc form p{
+		font-size: 18px;
+		line-height: 24px;
+	}
+
+	div.blocLeft{
+		width: 340px;
+		float: left;
+		margin-top: 45px;
+	}
+	div.blocLeft input{
+		font-size: 14px;
+	}
+
+	div.blocLeft label{
+		font-size: 16px;
+		margin-bottom: 20px;
+	}
+
+
+	div.blocRight{
+		width: 340px;
+		float: left;
+		margin-top: 45px;
+		margin-left: 40px;
+	}
+
+	div.blocRight textarea{
+		width: 328px;
+		height: 176px;
+		font-size: 14px;
+		margin-bottom: 95px;
+	}
+
+	div.contactBtn a{
+	    font-size: 16px; 
+	}
+
+}

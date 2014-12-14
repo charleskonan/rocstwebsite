@@ -1,0 +1,22 @@
+/** FONTS **/
+@import url("../fonts/open-sans/open_sans-font.css");
+
+/** OTHER STYLE **/
+@import url("../styles/layout.css");
+@import url("../styles/about-us.css");
+@import url("../styles/projets.css");
+@import url("../styles/service.css");
+@import url("../styles/realisation.css");
+@import url("../styles/contact.css");
+
+
+/* common properties */
+body{
+        background: #111111;
+        font-family: 'open_sansregular';
+        color: #FFFFFF;
+        /*overflow-x:hidden;*/
+    }
+
+
+
